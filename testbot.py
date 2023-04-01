@@ -24,7 +24,7 @@ photos_id = []
 videos_id = []
 documents_id = []
 
-admins = []
+admins = ["list of useradmin id"]
 admins_usersnames = []
 caption_photo = []
 caption_video = []
@@ -40,8 +40,7 @@ def main_admin_markup():
     markup = types.InlineKeyboardMarkup()
     markup.row_width = 3
     markup.add(types.InlineKeyboardButton("Выполнить рассылку", callback_data="/send_msg"),
-               types.InlineKeyboardButton("Текущий статус", callback_data="/usr_stats"),
-            #    types.InlineKeyboardButton("Закрепить сообщение", callback_data="/pinn_msg")
+               types.InlineKeyboardButton("Текущий статус", callback_data="/usr_stats")
                )
     
     return markup
