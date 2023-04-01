@@ -24,7 +24,7 @@ photos_id = []
 videos_id = []
 documents_id = []
 
-admins = [844635489, 158432616, 493804828]
+admins = []
 admins_usersnames = []
 caption_photo = []
 caption_video = []
